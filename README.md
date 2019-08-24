@@ -6,4 +6,4 @@
 
 ### 主页
 
-- <a herf=https://www.cnblogs.com/r0ckysec/ target="_Blank">https://www.cnblogs.com/r0ckysec/</a>
+- [https://www.cnblogs.com/r0ckysec/](https://www.cnblogs.com/r0ckysec/?_blank)
