@@ -6,4 +6,4 @@
 
 ### 主页
 
-- [https://www.cnblogs.com/r0ckysec/](https://www.cnblogs.com/r0ckysec/?_blank)
+- [https://www.cnblogs.com/r0ckysec/](https://www.cnblogs.com/r0ckysec/){:target="_blank"}
