@@ -6,5 +6,4 @@
 
 ### 主页
 
-- [https://www.cnblogs.com/r0ckysec/](https://www.cnblogs.com/r0ckysec/)
-<a href=https://www.cnblogs.com/r0ckysec/ target="_blank">https://www.cnblogs.com/r0ckysec/</a>
+- https://www.cnblogs.com/r0ckysec/
