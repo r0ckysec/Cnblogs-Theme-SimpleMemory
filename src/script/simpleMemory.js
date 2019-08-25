@@ -1,7 +1,7 @@
 /*!
- * UPDATES AND DOCS AT: https://github.com/BNDong
- * https://www.cnblogs.com/bndong/
- * @author: BNDong, dbnuo@foxmail.com
+ * UPDATES AND DOCS AT: https://github.com/r0ckysec
+ * https://www.cnblogs.com/r0ckysec/
+ * @author: r0ckysec
  **/
 if (initCheck()) {
     var sidebarHtml =
@@ -74,19 +74,19 @@ if (initCheck()) {
         '<div id="rightMenu"></div>';
 
     window.cnblogsConfigDefault = {
-        GhUserName: 'BNDong',
+        GhUserName: 'r0ckysec',
         GhRepositories: 'Cnblogs-Theme-SimpleMemory',
-        GhVersions: 'v1.1.2',
+        GhVersions: '1.0.0',
         blogUser: "",
         blogAvatar: "",
-        blogStartDate: "2019-01-01",
+        blogStartDate: "2018-05-20",
         menuCustomList: {},
         menuNavList: [],
         webpageTitleOnblur: "(oﾟvﾟ)ノ Hi",
         webpageTitleOnblurTimeOut: 500,
         webpageTitleFocus: "(*´∇｀*) 欢迎回来！",
         webpageTitleFocusTimeOut: 1000,
-        webpageIcon: "",
+        webpageIcon: "https://files-cdn.cnblogs.com/files/r0ckysec/favicon.ico",
         fontIconExtend: "",
         progressBar: {
             id: 'top-progress-bar',
@@ -154,12 +154,12 @@ if (initCheck()) {
             animateSections: true
         },
         homeTopImg: [
-            "https://raw.githubusercontent.com/BNDong/Cnblogs-Theme-SimpleMemory/master/img/home_top_bg.jpg"
+            "https://cnblogs-theme.oss-cn-hangzhou.aliyuncs.com/gh/r0ckysec/Cnblogs-Theme-SimpleMemory%401.0.0/img/home_top_bg.jpg"
         ],
         homeBannerText: "",
-        homeBannerTextType: "jinrishici",
+        homeBannerTextType: "jinrishici",// one
         essayTopImg: [
-            "https://raw.githubusercontent.com/BNDong/Cnblogs-Theme-SimpleMemory/master/img/nothome_top_bg.jpg"
+            "https://cnblogs-theme.oss-cn-hangzhou.aliyuncs.com/gh/r0ckysec/Cnblogs-Theme-SimpleMemory%401.0.0/img/nothome_top_bg.jpg"
         ],
         essayCodeHighlightingType: 'cnblogs',
         essayCodeHighlighting: '',
@@ -255,7 +255,7 @@ function initCheck() {
 // get file url
 function getJsDelivrUrl(file, directory) {
     file = setFileNameMin(file, directory);
-    return 'https://cdn.jsdelivr.net/gh/'+(window.cnblogsConfig.GhUserName)+'/'+(window.cnblogsConfig.GhRepositories)+'@'+(window.cnblogsConfig.GhVersions)+'/' + (file ? file : '');
+    return 'https://cnblogs-theme.oss-cn-hangzhou.aliyuncs.com/gh/'+(window.cnblogsConfig.GhUserName)+'/'+(window.cnblogsConfig.GhRepositories)+'@'+(window.cnblogsConfig.GhVersions)+'/' + (file ? file : '');
 }
 
 // optimization file name

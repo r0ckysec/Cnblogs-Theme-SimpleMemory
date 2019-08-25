@@ -1,8 +1,8 @@
 /*!
  * DATE: 2018-03-13
- * UPDATES AND DOCS AT: https://github.com/BNDong
- * https://www.cnblogs.com/bndong/
- * @author: BNDong, dbnuo@foxmail.com
+ * UPDATES AND DOCS AT: https://github.com/r0ckysec
+ * https://www.cnblogs.com/r0ckysec/
+ * @author: r0ckysec, dbnuo@foxmail.com
  **/
 function Base() {
 
@@ -323,6 +323,7 @@ function Base() {
                 document.title = window.cnblogsConfig.webpageTitleFocus;
                 timer = setTimeout(function () {
                     document.title = RelTitle;
+                    // document.title = "r0ckysec - 秘密基地";
                 }, window.cnblogsConfig.webpageTitleFocusTimeOut);
             }
         }
@@ -519,14 +520,14 @@ function Base() {
             '<figure class="poof"></figure>' +
             '</footer-background>' +
             '</footer>',
-        rHref = 'https://github.com/'+window.cnblogsConfig.GhUserName+'/'+window.cnblogsConfig.GhRepositories+'/tree/'+window.cnblogsConfig.GhVersions;
+        rHref = 'https://github.com/'+window.cnblogsConfig.GhUserName+'/'+window.cnblogsConfig.GhRepositories+'/';
 
         // 添加页脚
         footer.prepend(pvHtml).prepend(bgFooter).append(' / ThemeVersion: <a href="'+rHref
             +'" target="_blank" style="color: #888;text-decoration: underline;">'
             +(window.cnblogsConfig.GhVersions).substring(0,7)+'</a>');
 
-        if (window.cnblogsConfig.themeAuthor && window.location.href.search("www.cnblogs.com/bndong") === -1 ) setTheme();
+        if (window.cnblogsConfig.themeAuthor && window.location.href.search("www.cnblogs.com/r0ckysec") === -1 ) setTheme();
         window.setInterval( setRunTime, 500 );
         setBlogroll();
         timeIds.setCnzzTId = window.setInterval( setCnzz, 1000 );
@@ -570,7 +571,7 @@ function Base() {
             $('#footer').prepend('<div class="footer-image"></div>');
             setInterval(function(){
                 var footer = $('#footer');
-                var themeHtml = '<p id="ThemeAuthors" style="color: #444;z-index: 999;">- Theme Author：<a href="https://www.cnblogs.com/bndong/" target="_blank" style="color:#444;">BNDong</a> -</p></div>';
+                var themeHtml = '<p id="ThemeAuthors" style="color: #444;z-index: 999;">- Theme Author：<a href="https://www.cnblogs.com/r0ckysec/" target="_blank" style="color:#444;">r0ckysec</a> -</p></div>';
                 if ($('#ThemeAuthors').length == 0) {
                     $('#footer').append(themeHtml);
                 } else {
@@ -996,7 +997,7 @@ function Base() {
                         var patch = op.text();
                         var html = '<img class="comment-avatar" src="'+patch+'"/>';
                     } else {
-                        var html = '<img class="comment-avatar" src="https://files.cnblogs.com/files/bndong/no_avatar.gif"/>';
+                        var html = '<img class="comment-avatar" src="https://files-cdn.cnblogs.com/files/r0ckysec/no_avatar.gif"/>';
                     }
                     $(commentList[i]).before(html);
                 }
